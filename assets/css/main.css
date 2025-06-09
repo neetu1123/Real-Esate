@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.textColor{
+    @apply text-[#004369]
+}
+
+.lightText {
+    @apply text-[#1B7895]
+}
+
+.bgGradient {
+    @apply bg-gradient-to-r from-[#004369] to-[#1B7895]
+}
