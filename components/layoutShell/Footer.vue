@@ -7,12 +7,12 @@
                         <div class="w-8 h-8 bg-gray-900 rounded-lg flex items-center justify-center">
                             <Icon name="lucide:hexagon" class="w-5 h-5 text-white" />
                         </div>
-                        <span class="text-xl font-bold">Awsmd</span>
+                        <span class="text-xl font-bold">WebDesignSTR</span>
                     </div>
                     <h3 class="text-4xl font-bold mb-6">We would love to hear from you.</h3>
                     <p class="text-gray-600 mb-8">Feel free to reach our if you want to collaborate with us, or simply
                         have a chat</p>
-                    <button class="bg-gray-900 text-white px-6 py-3 rounded-full hover:bg-gray-800 transition-colors">
+                    <button class=" btn-style px-6 py-2  hover:text-white border !border-gray-900 rounded-full">
                         Become a Client
                         <Icon name="lucide:arrow-right" class="w-4 h-4 ml-2 inline" />
                     </button>
@@ -22,7 +22,7 @@
                             class="font-bold hover:text-blue-600 transition-colors">info@awsmd.com</a>
                     </div>
                     <div class="mt-8 text-gray-600">
-                        © Awsmd 2025. All rights reservedPrivacy Policy
+                        © WebDesignSTR 2025. All rights <span class="underline">reservedPrivacy</span> Policy
                     </div>
                 </div>
 
@@ -32,7 +32,7 @@
                         <div>
                             <p class="text-gray-600">Our Email</p>
                             <a href="mailto:info@awsmd.com"
-                                class="hover:text-blue-600 transition-colors">info@awsmd.com</a>
+                                class="hover:text-blue-600 transition-colors">info@Webdesignerstr.com</a>
                         </div>
                         <div>
                             <p class="text-gray-600">Our Phone</p>

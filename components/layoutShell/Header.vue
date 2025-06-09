@@ -1,9 +1,9 @@
 <template>
   <div>
     <!-- Top bar - always fixed with gray background -->
-    <div class="fixed top-0 left-0 right-0 z-20 bg-gray-800 text-white">
-      <div class=" mx-auto px-6 py-3 flex items-center justify-between">
-        <p>Neetu</p>
+    <div class="fixed top-0 left-0 right-0 z-20 bg-[#262626] text-white">
+      <div class=" mx-auto px-6 py-4 flex items-center justify-between">
+        <p>WebDesignSTR</p>
         <button class="px-4 py-1 bg-blue-600 hover:bg-blue-700 rounded transition-colors">Buy Now</button>
       </div>
     </div>
@@ -11,9 +11,9 @@
     <!-- Navigation bar - becomes sticky on scroll -->
     <header ref="header" :class="[
       'w-full z-20 transition-all duration-300',
-      isScrolled ?
-        'fixed top-10 left-0 right-0 bg-gradient-to-br from-blue-900 via-gray-900 to-black shadow-lg' :
-        'absolute top-12 left-0 right-0 bg-transparent'
+      !isScrolled ?
+        'fixed top-14 left-0 right-0 text-white bg-gradient-to-tr from-blue-900 to-gray-900' :
+        ' fixed  top-14 left-0 right-0 bg-gradient-to-tr from-[#02050A] to-gray-900 text-white'
     ]">
       <nav class="container mx-auto px-6 py-4 flex items-center justify-between">
         <div class="flex items-center space-x-2">
@@ -54,7 +54,7 @@ const combinedHeight = computed(() => {
 // Handle scroll events
 const handleScroll = () => {
   const scrollTop = window.pageYOffset || document.documentElement.scrollTop
-  const scrollThreshold = topBarHeight.value + 25 // Threshold slightly more than top bar height
+  const scrollThreshold = topBarHeight.value + 10 // Threshold slightly more than top bar height
 
   // Set isScrolled based on the scroll position
   isScrolled.value = scrollTop > scrollThreshold

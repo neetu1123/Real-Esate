@@ -9,7 +9,7 @@
             <div class="relative overflow-hidden mb-6">
                 <div class="flex whitespace-nowrap animate-marquee space-x-6">
                     <div v-for="i in 12" :key="i"
-                        class="inline-block flex-shrink-0 w-80 h-48 bg-gray-800 rounded-lg overflow-hidden">
+                        class="inline-block flex-shrink-0 w-96 h-72 bg-gray-800 rounded-lg overflow-hidden">
                         <img :src="`/page-4.png`" :alt="`Page Template ${i}`" class="w-full h-full object-cover" />
                     </div>
                     <!-- Duplicate content for seamless loop -->
@@ -23,7 +23,7 @@
             <div class="relative overflow-hidden mt-6">
                 <div class="flex whitespace-nowrap animate-marquee-reverse space-x-6">
                     <div v-for="i in 12" :key="i"
-                        class="inline-block flex-shrink-0 w-80 h-48 bg-gray-800 rounded-lg overflow-hidden">
+                        class="inline-block flex-shrink-0 w-96 h-72 bg-gray-800 rounded-lg overflow-hidden">
                         <img :src="`/page-4.png`" :alt="`Page Template ${i}`" class="w-full h-full object-cover" />
                     </div>
                     <!-- Duplicate content for seamless loop -->

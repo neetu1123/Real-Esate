@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-.textColor{
+.textColor {
     @apply text-[#004369]
 }
 
@@ -10,4 +10,23 @@
 
 .bgGradient {
     @apply bg-gradient-to-r from-[#004369] to-[#1B7895]
+}
+
+/* Custom button style with animation */
+
+.btn-style {
+    @apply relative overflow-hidden text-gray-700 border border-transparent transition-all duration-500 ease-in-out z-0;
+}
+
+.btn-style::before {
+    content: '';
+    @apply absolute top-0 right-0 h-full w-0 bg-black transition-all duration-500 ease-in-out z-[-1];
+}
+
+.btn-style:hover::before {
+    @apply w-full;
+}
+
+.btn-style:hover {
+    @apply text-white;
 }
